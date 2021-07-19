@@ -52,9 +52,9 @@ Filter out lidar informations and leverage bounding boxes of FRONT, FRONT_LEFT, 
 ---
 
 # Train and Evaluate
-Fine tune [models](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md) pre-trained on COCO dataset
+Fine tune [models](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md) pre-trained on COCO dataset.
 
-[Train](./train.ipynb) and [evaluate](./eval.ipynb) at the same time and save the best checkpoint during training
+[Train](./train.ipynb) and [evaluate](./eval.ipynb) at the same time and save the best model checkpoint during training.
 
 
 ---
