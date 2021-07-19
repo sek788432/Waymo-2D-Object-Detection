@@ -12,7 +12,7 @@ Reference: [Tensorflow Docs](https://tensorflow-object-detection-api-tutorial.re
 
 # Requirements
 
-Details are in [the notebook](./Configurations/Install-object-detection-api-script.ipynb)
+Details are in [the notebook.](./Configurations/Install-object-detection-api-script.ipynb)
 
 
 ---
