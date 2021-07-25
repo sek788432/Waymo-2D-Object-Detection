@@ -12,14 +12,14 @@ Reference: [Tensorflow Docs](https://tensorflow-object-detection-api-tutorial.re
 
 # Requirements
 
-Details are in [the notebook.](./Configurations/Install-object-detection-api-script.ipynb)
+### Details are in [the notebook.](./Configurations/Install-object-detection-api-script.ipynb)
 
 
 ---
 
 # Dataset
 
-[Waymo Open Dataset](https://console.cloud.google.com/storage/browser/waymo_open_dataset_v_1_2_0;tab=objects?prefix=&forceOnObjectsSortingFiltering=false)
+### [Waymo Open Dataset](https://console.cloud.google.com/storage/browser/waymo_open_dataset_v_1_2_0;tab=objects?prefix=&forceOnObjectsSortingFiltering=false)
 
 ---
 
@@ -44,7 +44,10 @@ item {
 
 ---
 # Preprocess
-Filter out lidar informations and leverage bounding boxes of FRONT, FRONT_LEFT, FRONT_RIGHT, SIDE_LEFT, SIDE_RIGHT cameras.
+### Filter out lidar informations and leverage bounding boxes of:<br/>
+### FRONT, FRONT_LEFT, FRONT_RIGHT, SIDE_LEFT, SIDE_RIGHT cameras.
+
+<img src="output/readme_img/waymo_camera.jpg" width="900">
 
 ## [Code](./code/create_record_multifiles.py)
 ## [Script](./Preprocess_script.ipynb)
@@ -52,9 +55,9 @@ Filter out lidar informations and leverage bounding boxes of FRONT, FRONT_LEFT, 
 ---
 
 # Train and Evaluate
-Fine tune [models](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md) pre-trained on COCO dataset.
+### Fine tune [models](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md) pre-trained on COCO dataset.
 
-[Train](./train.ipynb) and [evaluate](./eval.ipynb) at the same time and save the best model checkpoint during training.
+### [Train](./train.ipynb) and [evaluate](./eval.ipynb) at the same time and save the best model checkpoint during training.
 
 
 ---
